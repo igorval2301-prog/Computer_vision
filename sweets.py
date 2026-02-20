@@ -46,7 +46,7 @@ for cnt in contours:
 cv2.imshow("Masks", mask)
 cv2.imshow("Final Result", original)
 
-cv2.imwrite("image/Final Result.jpg", mask)
+cv2.imwrite("image/Final Result.jpg", original)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 cv2.waitKey(0)
